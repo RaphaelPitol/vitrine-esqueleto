@@ -35,15 +35,15 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="cadastros/categorias"><i class="fas fa-tags"></i> Categorias</a>
-                        <a class="collapse-item" href="cadastros/produtos"><i class="fas fa-gift"></i> Produtos</a>
+                        <a class="collapse-item" href="cadastros/categorias.php"><i class="fas fa-tags"></i> Categorias</a>
+                        <a class="collapse-item" href="cadastros/produtos.php"><i class="fas fa-gift"></i> Produtos</a>
 
-                        <a class="collapse-item" href="cadastros/tipos">
+                        <a class="collapse-item" href="cadastros/tipos.php">
                             <i class="fas fa-users"></i>
                             Tipo de Usuário
                         </a>
 
-                        <a class="collapse-item" href="cadastros/usuarios">
+                        <a class="collapse-item" href="cadastros/usuarios.php">
                             <i class="fas fa-user-plus"></i>
                             Usuário
                         </a>
@@ -123,9 +123,10 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               / <span class="mr-2 d-none d-lg-inline text-gray-600 small">
-                            	Olá <?=$_SESSION['usuario']['login']?>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            / <span class="mr-2 d-none d-lg-inline text-gray-600 small">
+                            	
+                                Olá <?=$_SESSION['usuario']['login']?>
                                 </span>
 
                                 
