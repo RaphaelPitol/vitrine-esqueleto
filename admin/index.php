@@ -70,6 +70,7 @@
             $pasta = $page[0] ?? NULL;
             $pagina = $page[1] ?? NULL;
             $id = $page[2] ?? NULL;   
+            
             $page = "{$pasta}/{$pagina}";
         }
         

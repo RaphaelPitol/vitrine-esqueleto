@@ -44,7 +44,7 @@ if ($_POST) {
         <br>
 
         <button type="submit" class="btn btn-success w-100">Efetuar login</button>
-        <a href="cadastros/usuario.php">Faça seu cadastro!</a>
+        
 
     </form>
     
